@@ -24,12 +24,12 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px 5%;
-    background-color: #ffffff;
+    background-color: #F6F5F6;
     border-bottom: 1px solid #eee;
 }
 
 .logo-link img {
-    height: 90px; /* VERGRÖSSERT VON 80px auf 90px */
+    height: 90px;
     width: auto;
     display: block;
 }
@@ -56,9 +56,27 @@ header nav a:hover {
 .hero { background-color: #003f70; color: #ffffff; text-align: center; padding: 100px 20px; }
 .hero h1 { font-size: 48px; margin: 0 0 10px 0; color: #ffffff; }
 .hero p { font-size: 20px; margin: 0; }
-.placeholder-image-1 { background-color: #d4e0e6; }
-.placeholder-image-2 { background-color: #e6e2d4; }
-.placeholder-image-3 { background-color: #e6d4d4; }
+
+/* Hier werden die Hintergrundbilder zugewiesen */
+.image-content {
+    background-size: cover;
+    background-position: center;
+}
+.placeholder-image-1 {
+    background-image: url('bilder/Hafen.jpg');
+}
+.placeholder-image-2 {
+    background-image: url('bilder/Staubsaugen.jpg');
+}
+.placeholder-image-3 {
+    background-image: url('bilder/Kontakt.jpg'); /* GEÄNDERT */
+}
+
+
+.split-section:first-of-type .text-content {
+    background-color: #F6F5F6;
+}
+
 .text-content h1 { font-size: 48px; font-weight: 700; margin-bottom: 20px; }
 .text-content h2 { font-size: 36px; font-weight: 700; margin-bottom: 20px; }
 .text-content h3 { font-size: 22px; font-weight: 500; margin-bottom: 20px; }
@@ -97,7 +115,7 @@ header nav a:hover {
 /* --- FOOTER --- */
 footer { background: #111; color: #fff; text-align: center; padding: 40px 5%; }
 .footer-logo { margin-bottom: 30px; }
-.footer-logo img { height: 100px; width: auto; }
+.footer-logo a img { height: 100px; width: auto; }
 .footer-links { margin-bottom: 20px; }
 .footer-links a { margin: 0 15px; color: #fff; }
 .copyright { font-size: 14px; color: #888; }
