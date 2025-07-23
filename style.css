@@ -63,13 +63,13 @@ header nav a:hover {
     background-position: center;
 }
 .placeholder-image-1 {
-    background-image: url('bilder/Hafen.jpg');
+    background-image: url('Bilder/Hafen.jpg');
 }
 .placeholder-image-2 {
-    background-image: url('bilder/Staubsaugen.jpg');
+    background-image: url('Bilder/Staubsaugen.jpg');
 }
 .placeholder-image-3 {
-    background-image: url('bilder/Kontakt.jpg'); /* GEÄNDERT */
+    background-image: url('Bilder/Kontakt.jpg'); /* GEÄNDERT */
 }
 
 
