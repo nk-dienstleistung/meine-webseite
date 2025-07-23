@@ -61,6 +61,7 @@ header nav a:hover {
 .image-content {
     background-size: cover;
     background-position: center;
+    min-height: 500px; /* <-- HIER IST DIE KORREKTUR */
 }
 .placeholder-image-1 {
     background-image: url('Bilder/Hafen.jpg');
@@ -69,7 +70,7 @@ header nav a:hover {
     background-image: url('Bilder/Staubsaugen.jpg');
 }
 .placeholder-image-3 {
-    background-image: url('Bilder/Kontakt.jpg'); /* GEÄNDERT */
+    background-image: url('Bilder/Kontakt.jpg');
 }
 
 
